@@ -1,0 +1,178 @@
+[
+  {
+    "Key": "AccountNumberIsNotUnique",
+    "Value": "The account number provided has already been registered. It must be unique."
+  },
+  {
+    "Key": "InstructionNotFound",
+    "Value": "The instruction couldn't be found."
+  },
+  {
+    "Key": "NoSystemWalletExistsForStakingThisCurrency",
+    "Value": "No system staking wallet has been registered. Staking has been suspended until this has been readded."
+  },
+  {
+    "Key": "TransactionIsNotForThisWalletAddress",
+    "Value": "The transaction is not for the specified wallet address."
+  },
+  {
+    "Key": "TransactionAlreadyImported",
+    "Value": "The transaction has already been imported and accounted for."
+  },
+  {
+    "Key": "RewardSpendBandDoesntExist",
+    "Value": "The reward spend band does not exist."
+  },
+  {
+    "Key": "AddressNotWhitelisted",
+    "Value": "The address for that transaction has not been whitelisted or confirmed yet."
+  },
+  {
+    "Key": "SymbolNotSupportedForConversionImplementation",
+    "Value": "The symbol is not supported for the conversion service type selected."
+  },
+  {
+    "Key": "AmountExceedsSystemWalletBalancePlusGasPrice",
+    "Value": "We don't have enough in our withdrawal account at the moment, please try again shortly."
+  },
+  {
+    "Key": "AddressAlreadyWhitelisted",
+    "Value": "The address is already whitelisted."
+  },
+  {
+    "Key": "WhitelistAddressNotValid",
+    "Value": "The whitelist address has not been permitted for user yet, it still requires validation."
+  },
+  {
+    "Key": "WhitelistAddressDoesntExist",
+    "Value": "The white listed address does not exist."
+  },
+  {
+    "Key": "CantUnStakeMoreThanActuallyStaked",
+    "Value": "The amount to withdraw specified exceeds the current staked amount."
+  },
+  {
+    "Key": "BandToMustBeGreaterThan0",
+    "Value": "The band must be greater than 0."
+  },
+  {
+    "Key": "PercentageRewardMustBeGreaterThan0",
+    "Value": "The percentage reward specified must be greater than 0."
+  },
+  {
+    "Key": "RangeCrossesAnExistingRange",
+    "Value": "The bands range provided crosses an existing band for that cryptocurrency and type."
+  },
+  {
+    "Key": "BandToMustBeGreaterThanBandFrom",
+    "Value": "The band to must be greater than the band from value."
+  },
+  {
+    "Key": "TrasactionDoesntExistOrIsFor0Amount",
+    "Value": "The transaction does not exist or amount transferred is 0."
+  },
+  {
+    "Key": "TrasactionDoesntExist",
+    "Value": "The transaction does not exist."
+  },
+  {
+    "Key": "AmountExceedsBalancePlusGasPrice",
+    "Value": "The amount specified exceeds the balance + fee."
+  },
+  {
+    "Key": "GasPriceCouldNotBeDetermined",
+    "Value": "The fee could not be determined."
+  },
+  {
+    "Key": "AddressIsNotValid",
+    "Value": "The address specified is not valid."
+  },
+  {
+    "Key": "CryptoCurrencyIsCurrentlyInactive",
+    "Value": "The specified crypto currency has currently been suspended."
+  },
+  {
+    "Key": "CryptoCurrencyDoesntExist",
+    "Value": "The crypto currency specified does not exist"
+  },
+  {
+    "Key": "UserDoesntOwnWallet",
+    "Value": "This is not the specified users wallet."
+  },
+  {
+    "Key": "NetworkIsntValid",
+    "Value": "The network specified is not valid."
+  },
+  {
+    "Key": "InfrastructureTypeNotSupported",
+    "Value": "The infrastructure type selected is not currently supported."
+  },
+  {
+    "Key": "UserAlreadyCompletedKyc",
+    "Value": "The user specified has already completed KYC."
+  },
+  {
+    "Key": "AccountDoesntExist",
+    "Value": "The account specified does not exist."
+  },
+  {
+    "Key": "KycIncomplete",
+    "Value": "KYC is incomplete for this account."
+  },
+  {
+    "Key": "AmountMustBePossitive",
+    "Value": "The amount specified must be possitive."
+  },
+  {
+    "Key": "CryptoCurrencyDoesntSupportStaking",
+    "Value": "The crypto currency specified does not currently support staking."
+  },
+  {
+    "Key": "SystemError",
+    "Value": "Something went really wrong, please contact an administrator."
+  },
+  {
+    "Key": "UserAlreadyActive",
+    "Value": "The specified user is already active."
+  },
+  {
+    "Key": "UserAlreadyDeactivated",
+    "Value": "The specified user is already inactive."
+  },
+  {
+    "Key": "EmailIsNotUnique",
+    "Value": "The email provided is not unique."
+  },
+  {
+    "Key": "CurrencyDoesntExist",
+    "Value": "The currency specified does not exist."
+  },
+  {
+    "Key": "WalletAddressAlreadyExists",
+    "Value": "A wallet address already exists for the crypto currency specified."
+  },
+  {
+    "Key": "UserDoesntExist",
+    "Value": "The user does not exist."
+  },
+  {
+    "Key": "WalletAddressDoesntExist",
+    "Value": "The wallet address does not exist."
+  },
+  {
+    "Key": "TotalContributionIsGreaterThan100",
+    "Value": "The total contribution specified exceeds 100%."
+  },
+  {
+    "Key": "UserRewardSelectionDoesntExist",
+    "Value": "The reward selection does not exist."
+  },
+  {
+    "Key": "UserDoesntOwnRewardSelection",
+    "Value": "The specified user does not own the reward selection."
+  },
+  {
+    "Key": "TotalContributionIsLessThan100",
+    "Value": "The total contribution specified needs to equal 100%."
+  }
+]

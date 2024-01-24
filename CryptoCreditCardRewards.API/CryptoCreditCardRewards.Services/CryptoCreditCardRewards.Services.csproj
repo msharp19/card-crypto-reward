@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoCreditCardRewards.Contexts\CryptoCreditCardRewards.Contexts.csproj" />
+    <ProjectReference Include="..\CryptoCreditCardRewards.Contexts\CryptoCreditCardRewards.Contexts.csproj" />
+    <ProjectReference Include="..\CryptoCreditCardRewards.Models\CryptoCreditCardRewards.Models.csproj" />
+    <ProjectReference Include="..\CryptoCreditCardRewards.Utilities\CryptoCreditCardRewards.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Providers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.8.5" />
+    <PackageReference Include="Nethereum.Accounts" Version="4.16.0" />
+    <PackageReference Include="Nethereum.Contracts" Version="4.16.0" />
+    <PackageReference Include="Nethereum.Hex" Version="4.16.0" />
+    <PackageReference Include="Nethereum.JsonRpc.Client" Version="4.16.0" />
+    <PackageReference Include="Nethereum.JsonRpc.RpcClient" Version="4.16.0" />
+    <PackageReference Include="Nethereum.RPC" Version="4.16.0" />
+    <PackageReference Include="Nethereum.Signer" Version="4.16.0" />
+    <PackageReference Include="Nethereum.Util" Version="4.16.0" />
+    <PackageReference Include="Nethereum.Web3" Version="4.16.0" />
+  </ItemGroup>
+
+</Project>

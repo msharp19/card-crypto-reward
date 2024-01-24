@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoCreditCardRewards.Models\CryptoCreditCardRewards.Models.csproj" />
+    <ProjectReference Include="..\CryptoCreditCardRewards.Utilities\CryptoCreditCardRewards.Utilities.csproj" />
+    <ProjectReference Include="..\CryptoCreditCardRewards.Models\CryptoCreditCardRewards.Models.csproj" />
+    <ProjectReference Include="..\CryptoCreditCardRewards.Utilities\CryptoCreditCardRewards.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

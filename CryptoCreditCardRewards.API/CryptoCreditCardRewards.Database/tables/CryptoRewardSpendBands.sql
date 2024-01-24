@@ -1,0 +1,16 @@
+﻿CREATE TABLE [dbo].[CryptoRewardBands]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[Active] BIT NOT NULL DEFAULT(0),
+	[Name] NVARCHAR(Max) NULL,
+	[Type] NVARCHAR(256) NOT NULL,
+	[Description] NVARCHAR(MAX) NULL,
+	[BandFrom] DECIMAL(18,8) NOT NULL DEFAULT(0),
+	[BandTo] DECIMAL(18,8) NOT NULL DEFAULT(0),
+	[UpTo] DECIMAL(18,8) NOT NULL,
+	[PercentageReward] DECIMAL(18,8) NOT NULL,
+	[CreatedDate] DATETIME NOT NULL DEFAULT GETDATE(), 
+    [CreatedById] INT NULL,
+    [UpdatedDate] DATETIME NULL, 
+    [UpdatedById]  INT NULL
+)

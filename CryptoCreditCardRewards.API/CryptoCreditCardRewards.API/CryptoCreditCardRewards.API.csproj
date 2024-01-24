@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreRateLimit" Version="5.0.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.21" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.35.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.35.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoCreditCardRewards.Contexts\CryptoCreditCardRewards.Contexts.csproj" />
+    <ProjectReference Include="..\CryptoCreditCardRewards.Models\CryptoCreditCardRewards.Models.csproj" />
+    <ProjectReference Include="..\CryptoCreditCardRewards.Services\CryptoCreditCardRewards.Services.csproj" />
+    <ProjectReference Include="..\CryptoCreditCardRewards.Contexts\CryptoCreditCardRewards.Contexts.csproj" />
+    <ProjectReference Include="..\CryptoCreditCardRewards.Models\CryptoCreditCardRewards.Models.csproj" />
+    <ProjectReference Include="..\CryptoCreditCardRewards.Services\CryptoCreditCardRewards.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\CSS\" />
+    <Folder Include="Assets\Images\" />
+  </ItemGroup>
+
+</Project>
